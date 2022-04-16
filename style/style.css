@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    background:  #282828;
+
+}
+.header__list{
+    font-family: 'MB';
+    display: flex;
+    
+}
+.header__list li a{
+color: white;
+font-size: 20px;
+line-height: 24px;
+padding: 20px 30px;
+display: block;
+
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 120px;
+}
+.search{  
+    margin-left: 350px;
+}
+.header-content__text{
+    font-family: 'PR';
+    font-size: 100px;
+line-height: 75px;
+
+color: #FFFFFF;
+margin-bottom: 51px;
+}
+.header{
+    max-height: 765px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content{
+    background: url(../images/baackground.png) no-repeat center /cover;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.header-content__link{
+    font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+background: white;
+padding: 13px 14px;
+color: #171718;
+border-radius: 10px;
+font-family: 'MM';
+}
+.main{
+    background: black;
+  padding-bottom: 55px;
+}
+.first__item{
+    display: flex;
+   
+}
+.main__text{
+    font-size: 22px;
+line-height: 27px;
+font-family: 'MM';
+color: #FFFFFF;
+margin-top: 63px;
+margin-right: 30px;
+}
+
+.photo__first{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+}
+.second__text{
+    font-size: 22px;
+line-height: 27px;
+font-family: 'MM';
+color: #FFFFFF;
+margin-top: 200px;
+}
+.second__item{
+    display: flex;
+}
+.photo__second{
+    margin-top: 50px;
+}
+.third__item{
+    display: flex;
+}
+.photo__third{
+  margin-top: 50px; 
+}
+.third__text{
+    font-size: 20px;
+line-height: 24px;
+font-family: 'MM';
+margin-top: 195px;
+color: #FFFFFF;
+margin-right: 88px;
+}
+.fourth__text{
+    font-size: 20px;
+line-height: 24px;
+font-family: 'MM';
+margin-top: 183px;
+color: #FFFFFF;
+margin-left: 86px;
+}
+.iphone__first{
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 255px;
+    width: 100%;
+    padding-top:15px; 
+}
+.telephone__first{
+    font-size: 20px;
+line-height: 24px;
+font-family: 'MB';
+color: #000000;
+
+}
+.iphone__p1{
+    font-size: 14px;
+line-height: 17px;
+font-family: 'MR';
+color: #000000;
+
+text-transform: uppercase;
+}
+.iphone__link1{
+    font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+font-family: 'MB';
+background: #000000;
+padding: 7px 57px;
+color: #FFFFFF;
+margin-top: 27px;
+margin-bottom: 22px;
+display: block;
+}
+.fourth__item{
+    margin-top: 79px;
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+
+}
+.img__line{
+    display: flex;
+    align-items: center;
+}
+.img__line::after{
+   max-width: 61px;
+   width: 100%;
+    height: 1px;
+    content: '';
+    background: #C4C4C4;
+    display: block;
+    margin-top: 125px;
+    margin-left: 14px;
+}
+.img__line::before{
+    max-width: 61px;
+    width: 100%;
+    height: 1px;
+    content: '';
+    background: #C4C4C4;
+    display: block;
+    margin-right: 14px;
+    margin-top: 125px;
+}
+
+
+
+.iphone__second{
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 255px;
+    width: 100%;
+    padding-top:15px; 
+}
+.telephone__second{
+    font-size: 20px;
+line-height: 24px;
+font-family: 'MB';
+color: #000000;
+
+}
+.iphone__p2{
+    font-size: 14px;
+line-height: 17px;
+font-family: 'MR';
+color: #000000;
+
+text-transform: uppercase;
+}
+.iphone__link2{
+    font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+font-family: 'MB';
+background: #000000;
+padding: 7px 57px;
+color: #FFFFFF;
+margin-top: 27px;
+margin-bottom: 22px;
+display: block;
+}
+
+
+.iphone__third{
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 255px;
+    width: 100%;
+    padding-top:15px; 
+}
+.telephone__third{
+    font-size: 20px;
+line-height: 24px;
+font-family: 'MB';
+color: #000000;
+
+}
+.iphone__p3{
+    font-size: 14px;
+line-height: 17px;
+font-family: 'MR';
+color: #000000;
+
+text-transform: uppercase;
+}
+.iphone__link3{
+    font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+font-family: 'MB';
+background: #000000;
+padding: 7px 57px;
+color: #FFFFFF;
+margin-top: 27px;
+margin-bottom: 22px;
+display: block;
+}
+
+.iphone__fourth{
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 255px;
+    width: 100%;
+    padding-top:15px; 
+
+}
+.telephone__fourth{
+    font-size: 20px;
+line-height: 24px;
+font-family: 'MB';
+color: #000000;
+
+}
+.iphone__p4{
+    font-size: 14px;
+line-height: 17px;
+font-family: 'MR';
+color: #000000;
+
+text-transform: uppercase;
+}
+.iphone__link4{
+    font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+font-family: 'MB';
+background: #000000;
+padding: 7px 57px;
+color: #FFFFFF;
+margin-top: 27px;
+margin-bottom: 22px;
+display: block;
+}
+
+.footer{
+    background: 
+    #282828;
+    display: flex;
+    flex-direction: column;
+    height :
+    215px;
+
+}
+.footer-box{
+   margin-top: 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__list li a{
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 20px 30px;
+    display: block;
+ 
+    }
+    .footer__list{
+        font-family: 'MB';
+        display: flex;
+        
+    }
+    .visa{
+        margin-left: 270px;
+    }
+    .iphone__white{
+        margin: 10px 0;    
+    }
+.iphone__black{
+   margin: 10px 0; 
+}
+.iphone__green{
+    margin: 10px 0; 
+}
+.iphone__blue{
+    margin: 10px 0;  
+}
+
+
+@media (max-width:1140px)  {
+ .header-content{
+ 
+     flex-wrap: wrap;
+ 
+ }
+.header-top img{
+    margin-right: 50px;
+}
+.first__item{
+margin-left: 30px;
+margin-right: 30px;
+}
+.second__item{
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+.third__item{
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+.fourth__item{
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+    .mastercard{
+        margin-right: 30px;
+    }
+}
+
+
+
+
+
+@media (max-width:800px){
+    .header-top{
+flex-direction: column;
+position: relative;
+margin-bottom: 30px;
+margin-right: 100px;
+
+    }
+  
+    .header__list{margin-left: 100px;}
+ 
+  
+    .first__item{
+        flex-direction: column;
+    }
+    .photo__first{
+       max-width: 408px;
+       width: 100%;
+     margin-left: 150px;
+       max-height: 457px;
+       height: 100%;
+    }
+    .main__text{
+        font-size:20px ;
+        line-height: 20px;
+        max-width: 750px ;
+        width: 100%;
+  
+    }
+    .second__item{
+        flex-direction: column;
+        position: relative;
+    }
+    .photo__second{
+       max-width: 408px;
+       width: 100%;
+     margin-left: 150px;
+       max-height: 457px;
+       height: 100%;
+       margin-top: 100px;
+    }
+    .second__text{
+        font-size:20px ;
+        line-height: 20px;
+        max-width: 750px ;
+        width: 100%;
+ position: absolute;
+ 
+ top: 300px;
+    }
+    .third__item{
+        margin-top: 100px;
+    }
+    .shop {
+        width: 100%;
+ position: absolute;
+ left: 300px;
+ top: 120px;
+    }
+    .third__text{
+        margin-left: 30px;
+        font-size:17px ;
+        line-height: 17px;
+        max-width: 300px ;
+        width: 100%;
+    }
+    .fourth__text{
+        font-size:15px ;
+        line-height: 15px;
+        max-width: 300px ;
+        width: 100%;
+    }
+
+    
+  .fourth__item{
+      width: 100%;
+      flex-direction: column;
+     display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 30px;
+      margin-left: 50px;
+  }
+.footer-box{
+    margin-left: 100px;
+}
+.mastercard{
+    margin-right: 500px;
+}
+}
